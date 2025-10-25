@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+    <form method="post" action="submit.html">
+        <p>
+            <label>Full Name: </label>
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+        </p>
+        <p>
+            <label>Email: </label>
+            <input type="email" name="email" placeholder="Enter valid Email address" required>
+        </p>
+        <p>
+            <label>Password: </label>
+            <input type="password" name="password" placeholder="Enter Password" required>
+        </p>
+        <p>
+            <label>Gender: </label>
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female
+            <input type="radio" name="gender" value="other" required>Other
+        </p>
+        <p>
+            <label>Course: </label>
+            <select name="Course" required>
+                <option value="">--SELECT COURSE</option>
+                <option value="btech">B.Tech</option>
+                <option value="bca">BCA</option>
+                <option value="mba">MBA</option>
+                <option value="mca">MCA</option>
+            </select>
+        </p>
+        <p>
+            <label>Contact NO.: </label>
+            <input type="tel" name="contact" placeholder="Enter Phone Number" required>
+        </p>
+        <p>
+            <label>Address: </label><br>
+            <textarea name="address" rows="5" cols="60" placeholder="Enter Your Address" required></textarea>
+        </p>
+        <p>
+            <input type="Submit" value="Register">
+            <input type="reset" va;lue="clear">
+        </p>
+    </form>
+    <hr>
+    <p align="center">&copy; 2025 Student Registration Portal</p>
+    <hr>
+    <p> MANU KUMAR </p><p>CSE-21</p><p>ADDMISSION NUMBER-2025B01011090</p>
+</body>
+</html>
