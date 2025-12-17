@@ -3,98 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>EXPERIMENT 10 BY Manu Kumar</title>
     <style>
-        .cont{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 120px 120px 120px 120px;
-            border : 4px slategrey
-            font-size: 2rem;
-            font-weight: bold;
-            
+        p{
+            padding: 10px;
+            margin: 0;
         }
-
-        .header{
-            grid-column: 1/5;
+        .nav{
+            background-color: black;
+            color: white;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
-            font-size: 2rem;
-            font-weight: bold;
-            border-bottom: 2px solid blue;
-            border-top: 2px solid blue;
-            border-right: 2px solid blue;
-            border-left: 2px solid blue;
-            background-color: orangered;
-            border-radius: 7px;
+            padding: 10px;
+            font-size: 20px;
         }
-        
-        .sidebar{
-            grid-column: 1/2;
-            grid-row: 2/4;
-            padding: 20px;
+        .cn, .sy{
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-right: 2px solid blue;
-            border-left: 2px solid blue;
-            border-bottom: 2px solid blue;
-            background-color: rgb(0, 217, 255);
-            border-radius: 7px;
+            margin-left: 50px;
+            gap: 20px;
         }
-
-        .content{
-            grid-column: 3/5;
-            grid-row: 2/4;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-left: 2px solid blue;
-            border-right: 2px solid blue;
-            border-bottom: 2px solid blue;
-            background-color: rgb(237, 53, 181);
-            border-radius: 7px;
+        .sy{
+            margin-left: auto; 
         }
-        
-        .ft{
-            grid-column: 1/5;
-            grid-row: 4/5;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-left: 2px solid blue;
-            border-right: 2px solid blue;
-            border-bottom: 2px solid blue;
-            border-top: 2px solid blue;
-            background-color: rgb(0, 255, 0);
-            border-radius: 7px;
+        .c{
+            font-size: 30px;
+            padding: 3px;
         }
     </style>
-
+</head>
 <body>
-    <div class="cont">
-        <div class="header">
-            HEADER
-        </div>
-        <div class="sidebar">
-            SIDEBAR
-        </div>
-        <div class="content">
-            CONTENT
-        </div>
-        <div class="ft">
-            FOOTER
+
+    <div class="nav">
+        <p><b>ShopEase</b></p>
+
+        <div class="cn">
+            <p>Home</p>
+            <p>Products</p>
+            <p>Categories</p>
+            <p>Deals</p>
+            <p>Contact</p>
         </div>
 
+        <div class="sy">
+            <p><b>Cart</b></p>
+            <p><b>Login</b></p>
+        </div>
     </div>
-    <p><b>MANU KUMAR ---- CSE-21----ADMISSION NUMBER-2025B01011090</b></p>
+    <p class="c"><b>Welcome to ShopEase!</b></p>
+    <p class="c">Your one-stop destination for all shopping needs.</p>
+    <p style="text-align: center;">@ Manu Kumar</p><p>2025B01011090</p><p>cse-21</p>
 </body>
 </html>
+*
