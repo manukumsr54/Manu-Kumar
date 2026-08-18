@@ -1,9 +1,9 @@
 # Manu-Kumar
 # 🌐 Web Development Learning
 
-A collection of my **basic HTML and CSS codes, experiments, and practice projects** created while learning the fundamentals of Web Development.
+A collection of my **basic HTML and CSS codes, experiments, and practice projects** created while learning the fundamentals of Web-Development .
 
-This repository contains small examples and exercises that helped me understand how websites are structured, styled, and designed.
+This repository contains small examples and exercises that helped me understand how websites are structured, styled, and designed .
 
 ---
 
